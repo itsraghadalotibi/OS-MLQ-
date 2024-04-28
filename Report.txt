@@ -1,0 +1,27 @@
+
+Scheduling Order:
+[P1 | P2 | P4 | P3 | P3 | P4 | P5]
+---------------------------------------- 
+info :
+Process ID: 1, Priority: 1, Arrival Time: 0, Cpu Burst Time: 2, Start Time: 0, Termination Time: 2, Turnaround Time: 2, Waiting Time: 0, Response Time: 0
+----------------------------------------
+Process ID: 2, Priority: 1, Arrival Time: 2, Cpu Burst Time: 3, Start Time: 2, Termination Time: 5, Turnaround Time: 3, Waiting Time: 0, Response Time: 0
+----------------------------------------
+Process ID: 3, Priority: 1, Arrival Time: 8, Cpu Burst Time: 5, Start Time: 8, Termination Time: 13, Turnaround Time: 5, Waiting Time: 0, Response Time: 0
+----------------------------------------
+Process ID: 4, Priority: 2, Arrival Time: 2, Cpu Burst Time: 6, Start Time: 5, Termination Time: 16, Turnaround Time: 14, Waiting Time: 8, Response Time: 3
+----------------------------------------
+Process ID: 5, Priority: 2, Arrival Time: 10, Cpu Burst Time: 5, Start Time: 16, Termination Time: 21, Turnaround Time: 11, Waiting Time: 6, Response Time: 6
+----------------------------------------
+Average Turnaround Time: 7.0
+Average Waiting Time: 2.8
+Average Response Time: 1.8
+----------------------------------------
+Scheduling by Turnaround Time:
+[P1 | P2 | P3 | P5 | P4]
+
+Scheduling by Waiting Time:
+[P3 | P2 | P1 | P5 | P4]
+
+Scheduling by Response Time:
+[P1 | P2 | P3 | P4 | P5]
